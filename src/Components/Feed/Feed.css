@@ -1,0 +1,23 @@
+.Feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-column-gap:20px ;
+    grid-row-gap: 30px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.Card img{
+    width: 100%;
+    border-radius: 7px;
+}
+.Card h2{
+    font-size: 13px;
+    font-weight: 500;
+}
+.Card h3{
+    font-size: 13px;
+    font-weight: 600;
+}
+.Card p{
+    font-size: 12px;
+}

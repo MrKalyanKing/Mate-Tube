@@ -1,0 +1,100 @@
+.left-side{
+    flex-basis: 69%;
+    
+}
+.left-side .video iframe{
+    width: 100%;
+    height: 35vw;
+}
+.video-information h2{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.video-information h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.likebtn{
+    display: flex;
+    margin-left: 70%;
+    gap: 10px;
+    cursor: pointer;
+}
+.video-information .likebtn img{
+    width: 30px;
+    padding-left:5px;   
+}
+.video-information .likebtn p{
+    text-align: center;
+    margin-top: 7px;
+}
+hr{
+    margin-bottom: 5px;
+}
+.publisher{
+    display: flex;
+}
+.publisher .channel-info img{
+    border-radius: 50%;
+    width: 70px;
+}
+.publisher .channel-name  h2{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.publisher .channel-name h3{
+    font-size: 14px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+.publisher .subcriber-btn{
+    margin-left: 60%;
+    margin-top: 10px;
+}
+.publisher .subcriber-btn button{
+    width: 100px;
+    height: 30px;
+    color: rgb(244, 28, 28);
+    background:linear-gradient(85deg ,aqua,white) ;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.comment-section .comment{
+    padding: 5px;
+}
+.comment-section .comment h2{
+    font-size: 19px;
+    font-weight: 600;
+}
+.comment-section .comment-info {
+    display: flex;
+    margin-left: 20px;    
+}
+.comment-section .channel-info h2,h3{
+    padding-left:30px ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.comment-section .comment-info img{
+    border-radius: 50%;
+    width: 30px;
+}
+.comment-section .comment-action p{
+    padding-left: 80Px ;
+}
+.comment-section .comment-btn{
+    padding-left: 80px;
+    gap: 10px;
+}
+.comment-btn{
+    display: flex;
+    align-items: center;
+}
+.comment-section .comment-btn img{
+    width: 40px;
+    padding: 5px;
+    border-radius: 0px;
+}

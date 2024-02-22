@@ -1,0 +1,24 @@
+.container{
+    flex-basis: 50%;
+    cursor: pointer;
+}
+ .Card1{
+    display: flex;
+    margin-bottom: 9px;
+    
+    
+}
+ .Card1 img{
+     flex-basis: 50%;
+     width: 50%;
+     
+ }
+ .video-info1 h4{
+    font-size: 12px;
+    font-weight: 600;
+ }
+ .video-info1 p{
+    font-weight: 500;
+    font-size: 12px;
+ }
+

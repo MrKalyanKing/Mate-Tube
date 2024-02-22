@@ -1,0 +1,58 @@
+.slidebar{
+    background-color:rgb(18, 18, 18);
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 73px;
+    padding-left: 1%;
+    padding-top: 0px;
+    cursor: pointer;
+}
+.shortcut-links img{
+    width: 20px;
+    margin-right: 20px;
+}
+.slide-link{
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+.slide-link p{
+    font-size: 13px;
+    color: white;
+}
+hr{
+    color: white;
+    width: 95%;
+    border: 3px solid balck;
+}
+.subcriber h3{
+    padding: 10px;
+    font-size: 15px ;
+    font-weight: 600;
+    color: white;
+}
+.slide-link img{
+    width: 20px;
+    border-radius: 50%;
+}
+.subcriber .slide-link p{
+    margin-left: 15px;
+}
+.small-slidebar{
+  width: 5%;
+}
+.small-slidebar p{
+    display: none;
+}
+.small-slidebar h3{
+    display: none;
+}
+.small-slidebar hr{
+    width: 40px;
+}
+ .active{
+    margin-bottom: 3px;
+    border-bottom: 1px solid red;
+}
