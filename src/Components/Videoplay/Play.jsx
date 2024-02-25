@@ -102,13 +102,16 @@ if (!apiData || !channelDetails || !commentData) {
                 </div>
                 <hr/>
       <h2 className='comment'>{value_converter(apiData.statistics.commentCount)} Comments</h2>
+       {/* <div className="show-comments">
+          <button onClick={ToggleComment()}>Show Comments</button>
+  </div>*/}
  
         
           {commentData.map((item,index)=>{
             console.log(Array.isArray(commentData))
             return(
 
-              <div   className="comment-section">
+              <div   className="comment-section" >
             <div key={index} className="comment-info">
                 <img src={item.snippet.topLevelComment.snippet.authorProfileImageUrl} alt="" />
                 <h3>{item.snippet.topLevelComment.snippet.authorDisplayName} &bull; {moment(item.snippet.topLevelComment.snippet.publishedAt).fromNow()}</h3>
@@ -146,5 +149,14 @@ export const value_converter=(value)=>{
       return value
   }
 }
-
+const displaycomment=document.querySelector('.comment-section');
+console.log(displaycomment)
+ function ToggleComment(){
+  if(displaycomment){
+   displaycomment.style.display='block';
+  }
+  else{
+    console.log('cannot find comment section')
+  }
+ }
 export default Play

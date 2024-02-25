@@ -64,7 +64,7 @@ hr{
     width: 100px;
     height: 30px;
     color: rgb(244, 28, 28);
-    background:linear-gradient(85deg ,aqua,white) ;
+    background:linear-gradient(85deg ,rgb(6, 1, 36),rgb(8, 0, 19)) ;
     border: 1.5px solid black;
     cursor: pointer;
 }
@@ -72,6 +72,36 @@ hr{
 .comment-section .comment{
     padding: 5px;
 }
+.show-comments{
+    padding: 30px;
+    cursor: pointer;
+    animation: bounce 2s ease-in-out infinite;
+}
+.show-comments button{
+    height: 2.0rem;
+    
+}
+.show-comments button:hover{
+    background-color: rgb(40, 40, 83);
+    cursor: pointer;
+    transition: 0.3s ease-in ;
+    color: aliceblue;
+}
+@keyframes bounce{
+    0%,20%,50%,80%,100%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-20px);
+    }
+    60%{
+        transform: translateY(-10px);
+    }
+}
+.comment-section{
+    
+}
+
 .comment-section .comment h2{
     font-size: 19px;
     font-weight: 600;
