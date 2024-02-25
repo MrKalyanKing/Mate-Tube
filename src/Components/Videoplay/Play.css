@@ -57,7 +57,7 @@ hr{
     font-weight: 500;
 }
 .publisher .subcriber-btn{
-    margin-left: 60%;
+    margin-left: 40%;
     margin-top: 10px;
 }
 .publisher .subcriber-btn button{
@@ -105,3 +105,237 @@ hr{
     padding: 5px;
     border-radius: 0px;
 }
+@media (max-width:576px){
+.left-side{
+        width: 100%;
+        max-width: fit-content;
+        padding: 20px;
+        
+    }
+    .video iframe{
+     height: 40vh;
+     width: 100%;
+    }
+    .video-information {
+        width: 100%;
+    }
+    .video-information h2{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .video-information h3{
+        padding-left: 0px;
+    }
+     .likebtn{
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    .piblisher{
+        width: 100%;
+    }
+    .publisher .channel-info img{
+        width: 50px;
+    }
+     .channel-name h2{
+        font-size: 14px;
+    }
+    .subcriber-btn button{
+        margin-left: -100px;
+        
+    }
+    button{
+        max-width: 60px;
+       
+    }
+    .video-dis p{
+        font-size: 10px;
+    }
+    .comment{
+        font-size: 18px;
+    }
+    .comment-section{
+        width: 100%;
+    }
+
+}
+@media (max-width:768px){
+    .left-side{
+        flex-basis: 100%;
+        
+    }
+    .video iframe{
+        height: 40vh;
+        
+       }
+       .video-information {
+           width: 100%;
+       }
+       .video-information h2{
+           font-size: 15px;
+           font-weight: 600;
+       }
+       .video-information h3{
+           padding-left: 0px;
+       }
+        .likebtn{
+           padding-left: 0px;
+           margin-left: 0px;
+       }
+       .piblisher{
+           width: 100%;
+       }
+       .publisher .channel-info img{
+           width: 50px;
+       }
+        .channel-name h2{
+           font-size: 14px;
+       }
+       .subcriber-btn button{
+           margin-left: -100px;
+       }
+       .video-dis p{
+           font-size: 15px;
+       }
+       .comment{
+           font-size: 18px;
+       }
+       .comment-section{
+           width: 100%;
+       }
+    
+}
+@media (max-width:992px){
+    .left-side{
+        flex-basis: 100%;
+        
+    }
+    .video iframe{
+        height: 29vh;
+        
+       }
+       .video-information {
+           width: 100%;
+       }
+       .video-information h2{
+           font-size: 15px;
+           font-weight: 600;
+       }
+       .video-information h3{
+           padding-left: 0px;
+       }
+        .likebtn{
+           padding-left: 0px;
+           margin-left: 0px;
+       }
+       .piblisher{
+           width: 100%;
+       }
+       .publisher .channel-info img{
+           width: 50px;
+       }
+        .channel-name h2{
+           font-size: 14px;
+       }
+       .subcriber-btn button{
+           margin-left: -100px;
+       }
+       .video-dis p{
+           font-size: 15px;
+       }
+       .comment{
+           font-size: 18px;
+       }
+       .comment-section{
+           width: 100%;
+       }
+}
+@media (max-width:1200px){
+    .left-side{
+        flex-basis: 100;
+        
+    }
+    .video iframe{
+        height: 29vh;
+        
+       }
+       .video-information {
+           width: 100%;
+       }
+       .video-information h2{
+           font-size: 15px;
+           font-weight: 600;
+       }
+       .video-information h3{
+           padding-left: 0px;
+       }
+        .likebtn{
+           padding-left: 0px;
+           margin-left: 0px;
+       }
+       .piblisher{
+           width: 100%;
+       }
+       .publisher .channel-info img{
+           width: 50px;
+       }
+        .channel-name h2{
+           font-size: 14px;
+       }
+       .subcriber-btn button{
+           margin-left: -100px;
+       }
+       .video-dis p{
+           font-size: 15px;
+       }
+       .comment{
+           font-size: 18px;
+       }
+       .comment-section{
+           width: 100%;
+       }
+}
+/*@media (max-width:1400px){
+    .left-side{
+        flex-basis: 100%;
+        
+    }
+    .video iframe{
+        height: 50vh;
+        
+       }
+       .video-information {
+           width: 100%;
+       }
+       .video-information h2{
+           font-size: 15px;
+           font-weight: 600;
+       }
+       .video-information h3{
+           padding-left: 0px;
+       }
+        .likebtn{
+           padding-left: 0px;
+           margin-left: 0px;
+       }
+       .piblisher{
+           width: 100%;
+       }
+       .publisher .channel-info img{
+           width: 50px;
+       }
+        .channel-name h2{
+           font-size: 14px;
+       }
+       .subcriber-btn button{
+           margin-left: -100px;
+       }
+       .video-dis p{
+           font-size: 15px;
+       }
+       .comment{
+           font-size: 18px;
+       }
+       .comment-section{
+           
+       }
+}*/

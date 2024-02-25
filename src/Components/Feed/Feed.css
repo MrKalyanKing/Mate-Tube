@@ -21,3 +21,21 @@
 .Card p{
     font-size: 12px;
 }
+
+@media (max-width:576px){
+    .Feed{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        
+        
+        
+    }
+}
+@media(max-width:768px){
+    .Feed{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}

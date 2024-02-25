@@ -20,12 +20,12 @@ const Navbar=({setSliderbar})=>{
            
             
         <div className="logo " >
-          <Link to='/' >  <img src={logovideo}   ></img></Link>
+          <Link to='/' >  <img src={logovideo}  ></img></Link>
         </div>
         
         </div>
         
-        <div className="navbar-middle flex-div" >
+        <div className="navbar-middle " >
             <div className="searchbox">
             <input type="text" />
             <img src={searchicon} alt="" />
