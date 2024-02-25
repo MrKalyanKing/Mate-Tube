@@ -18,7 +18,7 @@ const Slidebar=({slidebar,category,setCategory})=>{
         <div className={`slidebar ${slidebar?"":"small-slidebar"}`}>
             <div className="shortcut-links">
              <div className={`slide-link ${category===0?"active":""}`} onClick={()=>{setCategory(0)}}>
-                 <img src={home} alt="" /><p>Home</p>
+                 <img  src={home} alt="" /><p>Home</p>
              </div>
                 <div className={`slide-link ${category===20?"active":""}`}onClick={()=>setCategory(20)}>
                     <img src={gaming} alt="" /><p>Gaming</p>

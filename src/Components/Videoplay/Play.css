@@ -1,8 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .left-side{
+    
     flex-basis: 69%;
     
+    
 }
-.left-side .video iframe{
+ .video iframe{
     width: 100%;
     height: 35vw;
 }

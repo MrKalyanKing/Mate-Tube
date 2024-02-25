@@ -55,4 +55,5 @@ hr{
  .active{
     margin-bottom: 3px;
     border-bottom: 1px solid red;
+    width: 100%;
 }

@@ -10,7 +10,7 @@ import thumbnail7 from '../../assets/thumbnail7.png'
 import thumbnail8 from '../../assets/thumbnail8.png'
 import { Link } from 'react-router-dom'
 import moment from 'moment'
-export const API_KEY='AIzaSyB1B7Yfub92NmrjFIVNhjT6e8_3gI1IBkU';
+ const API_KEY='AIzaSyB1B7Yfub92NmrjFIVNhjT6e8_3gI1IBkU';
 const Feed=({category})=>{
       
 
@@ -47,7 +47,7 @@ const Feed=({category})=>{
     )
 }
 
- export const value_converter=(value)=>{
+  const value_converter=(value)=>{
      if(value>1000000){
          return Math.floor(value/1000000)+"M"
      }
